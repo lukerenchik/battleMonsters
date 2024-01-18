@@ -1,0 +1,3 @@
+C:/Users/Luke/CLionProjects/battleMonsters/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/Luke/CLionProjects/battleMonsters/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Luke/CLionProjects/battleMonsters/cmake-build-debug/CMakeFiles/rebuild_cache.dir

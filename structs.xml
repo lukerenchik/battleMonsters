@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameData>
+    <!-- Example of a battleMonster -->
+    <battleMonster name="MonsterName" type="MonsterType" startingHealth="100" currentHealth="100" totalWins="0" totalLosses="0" experience="0" level="1" numAbilities="2" speed="10">
+        <ability name="AbilityName1" type="AbilityType" power="50"/>
+        <ability name="AbilityName2" type="AbilityType" power="30"/>
+    </battleMonster>
+
+    <!-- Example of an item -->
+    <item name="ItemName" description="This is a detailed description of the item.">
+        <!-- The useFunction is not represented in XML as it is a function pointer. -->
+    </item>
+
+    <!-- Example of an inventory slot -->
+    <inventorySlot>
+        <item name="ItemName" description="This is a detailed description of the item."/>
+        <quantity>5</quantity>
+    </inventorySlot>
+
+    <!-- Example of a player -->
+    <player inventorySize="5" money="1000">
+        <!-- Inventory slots for the player -->
+        <inventorySlot>
+            <item name="ItemName" description="Item description"/>
+            <quantity>3</quantity>
+        </inventorySlot>
+        <!-- Additional inventory slots as needed -->
+    </player>
+
+    <!-- Example of a mapPerson -->
+    <mapPerson xPosition="10" yPosition="20" actionText="This person says something interesting." ID="1"/>
+</gameData>
