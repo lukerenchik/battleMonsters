@@ -6,7 +6,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <time.h>
 #include <math.h>
 #include "battleMonster.h"
@@ -130,11 +129,11 @@ void printBattleState(battleMonster *userMonster, battleMonster *oppMonster){
 }
 
 
-void startBattle(char bType, battleMonster *userMonster, battleMonster *oppMonster, Player *player){
+void startBattle(ActionContext* context, Player *player){
 
-    printf("This is a battle between %s and %s, FIGHT!\n", userMonster->name, oppMonster->name);
+    printf("This is a battle between %s and %s, FIGHT!\n", context->playerMonster->name, context->oppMonster->name);
     battleActive = 1;
-    if (userMonster->speed >= oppMonster->speed){
+    if (context->playerMonster->speed >= context->oppMonster->speed){
         opponentsTurnFlag = 0;
     }
     else{
@@ -143,16 +142,16 @@ void startBattle(char bType, battleMonster *userMonster, battleMonster *oppMonst
 
     while(battleActive){
         if (opponentsTurnFlag == 1){
-            opponentAbilitySelect(oppMonster, userMonster);
+            opponentAbilitySelect(context->oppMonster, context->playerMonster);
         }
-        printBattleState(userMonster, oppMonster);
+        printBattleState(context->playerMonster, context->oppMonster);
 
         if (!battleActive) {
             break;
         }
 
-        if(userMonster->currentHealth <= 0 || oppMonster->currentHealth <= 0){
-            endBattle(userMonster, oppMonster, player);
+        if(context->playerMonster->currentHealth <= 0 || context->oppMonster->currentHealth <= 0){
+            endBattle(context->playerMonster, context->oppMonster, player);
             break;
         }
 
@@ -164,17 +163,17 @@ void startBattle(char bType, battleMonster *userMonster, battleMonster *oppMonst
         switch(playerInput) {
             case 'R':
             case 'r':
-                runFromBattle(battleType, userMonster, oppMonster, player);
+                runFromBattle(battleType, context->playerMonster, context->oppMonster, player);
                 clearInputBuffer();
                 break;
             case 'F':
             case 'f':
-                selectAbility(userMonster, oppMonster);
+                selectAbility(context->playerMonster, context->oppMonster);
                 clearInputBuffer();
                 break;
             case 'I':
             case 'i':
-                selectInventoryItem(player, userMonster);
+                selectInventoryItem(player, context->playerMonster);
                 clearInputBuffer();
                 break;
             default:

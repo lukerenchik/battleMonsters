@@ -12,14 +12,33 @@
 
 #define PLAYER_H
 
+typedef struct ActionContext {
+    char param;
+    battleMonster* playerMonster;
+    battleMonster* oppMonster;
+} ActionContext;
+
+typedef void (*ActionFunctionWithContext)(ActionContext*);
+
 typedef struct {
     Item item;
     unsigned int quantity;
 } InventorySlot;
 
 typedef struct {
+    int xPosition;
+    int yPosition;
+    char actionText[200];
+    int ID;
+    battleMonster* equipped_battle_monster;
+    ActionFunctionWithContext actionFunction;
+    ActionContext* context;
+}mapPerson;
+
+typedef struct {
+    mapPerson location;
     InventorySlot inventory[MAX_INVENTORY_SIZE];
-    battleMonster* battle_monster;
+    battleMonster* equipped_battle_monster;
     int inventorySize;
     int money;
     int id;
@@ -88,17 +107,24 @@ void selectInventoryItem(Player *player, battleMonster *userMonster) {
     }
 }
 
-void initPlayer(Player *player, int invSize, int initMoney){
+void initPlayer(Player *player, int invSize, int initMoney, int x, int y){
     player->inventorySize = invSize;
     player->money = initMoney;
+    player->location.xPosition = x;
+    player->location.yPosition = y;
+    player->equipped_battle_monster = NULL;
 }
 
 void assignBattleMonsterToPlayer(Player* player, battleMonster* battleMonster) {
-    player->battle_monster = battleMonster;
+    player->equipped_battle_monster = battleMonster;
 }
 
 battleMonster* getPlayerBattleMonster(Player* player) {
-    return player->battle_monster;
+    return player->equipped_battle_monster;
 }
+
+
+
+
 
 #endif //PLAYER_H

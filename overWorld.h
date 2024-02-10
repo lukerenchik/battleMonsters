@@ -14,15 +14,9 @@
 #define MAX_X 100
 #define MAX_Y 100
 
-typedef void (*ActionFunction)(void);
 
-typedef struct {
-    int xPosition;
-    int yPosition;
-    char actionText[200];
-    int ID;
-    ActionFunction actionFunction;
-}mapPerson;
+
+
 
 mapPerson* map[MAX_X][MAX_Y] = {0};
 
@@ -30,15 +24,24 @@ void clearConsole() {
     system("clear");
 }
 
-void mapPersonInitializationWithAction(mapPerson *name, int xPos, int yPos, char text[], int ID, ActionFunction action){
+void mapPersonInitializationWithAction(mapPerson *name, int xPos, int yPos, char text[], int ID, battleMonster* equippedBM){
     name->xPosition = xPos;
     name->yPosition = yPos;
     name->ID = ID;
     strcpy(name->actionText, text);
-    name->actionFunction = action;
     map[name->xPosition][name->yPosition] = name;
+    name->equipped_battle_monster = equippedBM;
 }
 
+void addActionToMapPerson(mapPerson *name, ActionFunctionWithContext action, ActionContext* context) {
+    name->actionFunction = action;
+    name->context = context;
+}
+
+/*
+ *  Uneeded With Embedding mapPerson in Player Struct
+ *
+ *
 void mapPersonInitialization(mapPerson *name, int xPos, int yPos, char text[], int ID){
     name->xPosition = xPos;
     name->yPosition = yPos;
@@ -46,7 +49,7 @@ void mapPersonInitialization(mapPerson *name, int xPos, int yPos, char text[], i
     strcpy(name->actionText, text);
     map[name->xPosition][name->yPosition] = name;
 }
-
+*/
 
 void clearFromMap(mapPerson *name, mapPerson* grid[MAX_X][MAX_Y]){
     grid[name->xPosition][name->yPosition] = NULL;
