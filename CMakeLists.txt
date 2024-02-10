@@ -1,15 +1,13 @@
 cmake_minimum_required(VERSION 3.27)
-project(untitled C)
+project(BattleMonsters C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(untitled STATIC old/library.c
+add_executable(untitled STATIC old/library.c
         battleSequence.c
         battleSequence.h
-        overWorld.c
         overWorld.h
         overWorld.c
-        introductionSequence.c
         introductionSequence.c
         player.c
         player.h
@@ -18,7 +16,7 @@ add_library(untitled STATIC old/library.c
         mapData.c
         mapData.h
         battleMonsters.c
-        battleMonster.h
+        battleMonsters.h
         NPC.c
         NPC.h
         Items.c
@@ -26,3 +24,9 @@ add_library(untitled STATIC old/library.c
         Sound.c
         Sound.h
 )
+
+# Uncomment and adjust if you have include directories to add
+#include_directories(your/include/directory)
+
+# Uncomment and adjust if you need to link with external libraries
+#target_link_libraries(untitled your_external_library)

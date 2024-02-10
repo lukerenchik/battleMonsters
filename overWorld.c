@@ -8,8 +8,6 @@ int main() {
     mapPerson rival;
     Player player;
 
-    
-
     battleMonster Aqualix, Zorax;
 
     battleMonsterInitialization(&Aqualix, 30, 5, "Water", "Aqualix", 5);
@@ -44,7 +42,11 @@ int main() {
     assignBattleMonsterToPlayer(&player, &Aqualix);
 
     mapPersonInitializationWithAction(&rival, 18, 3, "Well, well, look who finally showed up! Ready to taste defeat?", 1, &Zorax);
-    addActionToMapPerson(&rival, startBattle('p', &player.equipped_battle_monster, &rival.equipped_battle_monster, &player));
+
+    ActionContext rivalContext;
+    assignActionContext(&rivalContext, 'p', player.equipped_battle_monster, rival.equipped_battle_monster, player);
+
+    addActionToMapPerson(&rival, startBattle, &rivalContext);
 
     placeOnMap(&player.location, map);
     placeOnMap(&rival, map);
@@ -96,6 +98,9 @@ int main() {
                     clearConsole();
                     displayMapAroundPlayer(map, player.location.xPosition, player.location.yPosition);
                     printf("%s\n", adjacentPerson->actionText); // Print the actionText of the adjacent mapPerson
+                    if(adjacentPerson->actionFunction) {
+                        adjacentPerson->actionFunction(adjacentPerson->context);
+                    }
                 } else {
                     clearConsole();
                     displayMapAroundPlayer(map, player.location.xPosition, player.location.yPosition);

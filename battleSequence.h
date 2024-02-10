@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
-#include "battleMonster.h"
+#include "battleMonsters.h"
 #include "player.h"
 
 #ifndef UNTITLED_BATTLESEQUENCE_H

@@ -5,17 +5,20 @@
 
 
 #include "Items.h"
-#include "battleMonster.h"
+#include "battleMonsters.h"
 
 #define MAX_INVENTORY_SIZE 50
 
 
 #define PLAYER_H
 
-typedef struct ActionContext {
+typedef struct Player Player;
+
+typedef struct{
     char param;
     battleMonster* playerMonster;
     battleMonster* oppMonster;
+    struct Player* player;
 } ActionContext;
 
 typedef void (*ActionFunctionWithContext)(ActionContext*);
@@ -35,14 +38,14 @@ typedef struct {
     ActionContext* context;
 }mapPerson;
 
-typedef struct {
+struct Player {
     mapPerson location;
     InventorySlot inventory[MAX_INVENTORY_SIZE];
     battleMonster* equipped_battle_monster;
     int inventorySize;
     int money;
     int id;
-}Player;
+};
 
 void addItemToInventory(Player *player, Item newItem, int quantity){
     for (int i = 0; i < player->inventorySize; i++){
@@ -123,7 +126,12 @@ battleMonster* getPlayerBattleMonster(Player* player) {
     return player->equipped_battle_monster;
 }
 
-
+void assignActionContext(ActionContext* ac, char param, battleMonster* playerBM, battleMonster* oppBM, Player* player){
+    ac->param = param;
+    ac->playerMonster = playerBM;
+    ac->oppMonster = oppBM;
+    ac->player = player;
+}
 
 
 
