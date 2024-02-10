@@ -34,7 +34,7 @@ void useSuperHealthPotion(battleMonster *monster){
 
 void useSmokeBomb(battleMonster *monster){
     printf("You throw down a smoke bomb and quickly escape from the engagement. ");
-    battleActive = 0;
+    //TODO: Reimplement Escape Battle Functionality.
 }
 
 //End of Items

@@ -1,8 +1,8 @@
 //
 // Created by luke on 2/9/24.
 
-#ifndef
-
+#ifndef PLAYER_H
+#define PLAYER_H
 
 #include "Items.h"
 #include "battleMonsters.h"
@@ -10,7 +10,7 @@
 #define MAX_INVENTORY_SIZE 50
 
 
-#define PLAYER_H
+
 
 typedef struct Player Player;
 
@@ -21,7 +21,7 @@ typedef struct{
     struct Player* player;
 } ActionContext;
 
-typedef void (*ActionFunctionWithContext)(ActionContext*);
+typedef void (*ActionFunctionWithContext)(ActionContext*, Player*);
 
 typedef struct {
     Item item;
@@ -131,6 +131,16 @@ void assignActionContext(ActionContext* ac, char param, battleMonster* playerBM,
     ac->playerMonster = playerBM;
     ac->oppMonster = oppBM;
     ac->player = player;
+}
+
+void getLoot(battleMonster *oppMonster, Player *user){
+    int money = rand() % 10;
+    money += 1;
+    int multiplier = oppMonster->level;
+    int moneyToPlayer = money*multiplier;
+    user->money += moneyToPlayer;
+    printf("Congratulations you have gained %d munny! You have a total of %d munny.", moneyToPlayer, user->money);
+
 }
 
 

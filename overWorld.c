@@ -3,6 +3,7 @@
 //
 #include "overWorld.h"
 #include "battleSequence.h"
+#include <stdbool.h>
 
 int main() {
     mapPerson rival;
@@ -44,7 +45,7 @@ int main() {
     mapPersonInitializationWithAction(&rival, 18, 3, "Well, well, look who finally showed up! Ready to taste defeat?", 1, &Zorax);
 
     ActionContext rivalContext;
-    assignActionContext(&rivalContext, 'p', player.equipped_battle_monster, rival.equipped_battle_monster, player);
+    assignActionContext(&rivalContext, 'p', player.equipped_battle_monster, rival.equipped_battle_monster, &player);
 
     addActionToMapPerson(&rival, startBattle, &rivalContext);
 
@@ -99,7 +100,7 @@ int main() {
                     displayMapAroundPlayer(map, player.location.xPosition, player.location.yPosition);
                     printf("%s\n", adjacentPerson->actionText); // Print the actionText of the adjacent mapPerson
                     if(adjacentPerson->actionFunction) {
-                        adjacentPerson->actionFunction(adjacentPerson->context);
+                        adjacentPerson->actionFunction(adjacentPerson->context, &player);
                     }
                 } else {
                     clearConsole();

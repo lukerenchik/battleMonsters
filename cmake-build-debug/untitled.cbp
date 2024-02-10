@@ -18,10 +18,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/libuntitled.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
@@ -37,10 +37,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/libuntitled.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
@@ -94,10 +94,10 @@
 		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/Sound.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleMonster.h">
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleMonsters.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleMonsters.c">
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleMonsters.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleSequence.c">
@@ -107,9 +107,6 @@
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/introductionSequence.c">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/library.c">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/mapData.c">

@@ -1,18 +1,18 @@
 //
 // Created by Luke on 1/10/2024.
 //
+#ifndef UNTITLED_BATTLESEQUENCE_H
+#define UNTITLED_BATTLESEQUENCE_H
 
 #include <string.h>
 #include <stdio.h>
-#include <stdbool.h>
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
 #include "battleMonsters.h"
 #include "player.h"
 
-#ifndef UNTITLED_BATTLESEQUENCE_H
-#define UNTITLED_BATTLESEQUENCE_H
+
 
 
 
@@ -22,15 +22,7 @@ int battleActive;
 char playerInput;
 char battleType;
 
-void getLoot(battleMonster *oppMonster, Player *user){
-    int money = rand() % 10;
-    money += 1;
-    int multiplier = oppMonster->level;
-    int moneyToPlayer = money*multiplier;
-    user->money += moneyToPlayer;
-    printf("Congratulations you have gained %d munny! You have a total of %d munny.", moneyToPlayer, user->money);
 
-}
 
 void endBattle(battleMonster *userMonster, battleMonster *oppMonster, Player *user){
     if(userMonster->currentHealth == 0){
@@ -129,7 +121,7 @@ void printBattleState(battleMonster *userMonster, battleMonster *oppMonster){
 }
 
 
-void startBattle(ActionContext* context, Player *player){
+void startBattle(ActionContext* context, Player* player){
 
     printf("This is a battle between %s and %s, FIGHT!\n", context->playerMonster->name, context->oppMonster->name);
     battleActive = 1;

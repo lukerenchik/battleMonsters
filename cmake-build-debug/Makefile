@@ -273,30 +273,6 @@ introductionSequence.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/introductionSequence.c.s
 .PHONY : introductionSequence.c.s
 
-library.o: library.c.o
-.PHONY : library.o
-
-# target to build an object file
-library.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/library.c.o
-.PHONY : library.c.o
-
-library.i: library.c.i
-.PHONY : library.i
-
-# target to preprocess a source file
-library.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/library.c.i
-.PHONY : library.c.i
-
-library.s: library.c.s
-.PHONY : library.s
-
-# target to generate assembly for a file
-library.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/library.c.s
-.PHONY : library.c.s
-
 mapData.o: mapData.c.o
 .PHONY : mapData.o
 
@@ -420,9 +396,6 @@ help:
 	@echo "... introductionSequence.o"
 	@echo "... introductionSequence.i"
 	@echo "... introductionSequence.s"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
 	@echo "... mapData.o"
 	@echo "... mapData.i"
 	@echo "... mapData.s"

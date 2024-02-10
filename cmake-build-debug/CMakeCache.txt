@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+BattleMonsters_BINARY_DIR:STATIC=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug
+
+//Value Computed by CMake
+BattleMonsters_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+BattleMonsters_SOURCE_DIR:STATIC=/home/luke/Documents/battleMonsters/battleMonsters
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -205,6 +214,15 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
+
+//Value Computed by CMake
+battleMonster_BINARY_DIR:STATIC=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug
+
+//Value Computed by CMake
+battleMonster_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+battleMonster_SOURCE_DIR:STATIC=/home/luke/Documents/battleMonsters/battleMonsters
 
 //Value Computed by CMake
 untitled_BINARY_DIR:STATIC=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug

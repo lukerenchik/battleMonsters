@@ -69,24 +69,10 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/library.c.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/library.c.o: /home/luke/Documents/battleMonsters/battleMonsters/library.c
-CMakeFiles/untitled.dir/library.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/library.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/library.c.o -MF CMakeFiles/untitled.dir/library.c.o.d -o CMakeFiles/untitled.dir/library.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/library.c
-
-CMakeFiles/untitled.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled.dir/library.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/Documents/battleMonsters/battleMonsters/library.c > CMakeFiles/untitled.dir/library.c.i
-
-CMakeFiles/untitled.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled.dir/library.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/Documents/battleMonsters/battleMonsters/library.c -o CMakeFiles/untitled.dir/library.c.s
-
 CMakeFiles/untitled.dir/battleSequence.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/battleSequence.c.o: /home/luke/Documents/battleMonsters/battleMonsters/battleSequence.c
 CMakeFiles/untitled.dir/battleSequence.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/battleSequence.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/battleSequence.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/battleSequence.c.o -MF CMakeFiles/untitled.dir/battleSequence.c.o.d -o CMakeFiles/untitled.dir/battleSequence.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/battleSequence.c
 
 CMakeFiles/untitled.dir/battleSequence.c.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/untitled.dir/battleSequence.c.s: cmake_force
 CMakeFiles/untitled.dir/overWorld.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/overWorld.c.o: /home/luke/Documents/battleMonsters/battleMonsters/overWorld.c
 CMakeFiles/untitled.dir/overWorld.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/overWorld.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/overWorld.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/overWorld.c.o -MF CMakeFiles/untitled.dir/overWorld.c.o.d -o CMakeFiles/untitled.dir/overWorld.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/overWorld.c
 
 CMakeFiles/untitled.dir/overWorld.c.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/untitled.dir/overWorld.c.s: cmake_force
 CMakeFiles/untitled.dir/introductionSequence.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/introductionSequence.c.o: /home/luke/Documents/battleMonsters/battleMonsters/introductionSequence.c
 CMakeFiles/untitled.dir/introductionSequence.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled.dir/introductionSequence.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/introductionSequence.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/introductionSequence.c.o -MF CMakeFiles/untitled.dir/introductionSequence.c.o.d -o CMakeFiles/untitled.dir/introductionSequence.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/introductionSequence.c
 
 CMakeFiles/untitled.dir/introductionSequence.c.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/untitled.dir/introductionSequence.c.s: cmake_force
 CMakeFiles/untitled.dir/player.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/player.c.o: /home/luke/Documents/battleMonsters/battleMonsters/player.c
 CMakeFiles/untitled.dir/player.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled.dir/player.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled.dir/player.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/player.c.o -MF CMakeFiles/untitled.dir/player.c.o.d -o CMakeFiles/untitled.dir/player.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/player.c
 
 CMakeFiles/untitled.dir/player.c.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/untitled.dir/player.c.s: cmake_force
 CMakeFiles/untitled.dir/saveload.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/saveload.c.o: /home/luke/Documents/battleMonsters/battleMonsters/saveload.c
 CMakeFiles/untitled.dir/saveload.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/untitled.dir/saveload.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled.dir/saveload.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/saveload.c.o -MF CMakeFiles/untitled.dir/saveload.c.o.d -o CMakeFiles/untitled.dir/saveload.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/saveload.c
 
 CMakeFiles/untitled.dir/saveload.c.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/untitled.dir/saveload.c.s: cmake_force
 CMakeFiles/untitled.dir/mapData.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/mapData.c.o: /home/luke/Documents/battleMonsters/battleMonsters/mapData.c
 CMakeFiles/untitled.dir/mapData.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/untitled.dir/mapData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/untitled.dir/mapData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/mapData.c.o -MF CMakeFiles/untitled.dir/mapData.c.o.d -o CMakeFiles/untitled.dir/mapData.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/mapData.c
 
 CMakeFiles/untitled.dir/mapData.c.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/untitled.dir/mapData.c.s: cmake_force
 CMakeFiles/untitled.dir/battleMonsters.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/battleMonsters.c.o: /home/luke/Documents/battleMonsters/battleMonsters/battleMonsters.c
 CMakeFiles/untitled.dir/battleMonsters.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/untitled.dir/battleMonsters.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/untitled.dir/battleMonsters.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/battleMonsters.c.o -MF CMakeFiles/untitled.dir/battleMonsters.c.o.d -o CMakeFiles/untitled.dir/battleMonsters.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/battleMonsters.c
 
 CMakeFiles/untitled.dir/battleMonsters.c.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/untitled.dir/battleMonsters.c.s: cmake_force
 CMakeFiles/untitled.dir/NPC.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/NPC.c.o: /home/luke/Documents/battleMonsters/battleMonsters/NPC.c
 CMakeFiles/untitled.dir/NPC.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/untitled.dir/NPC.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/untitled.dir/NPC.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/NPC.c.o -MF CMakeFiles/untitled.dir/NPC.c.o.d -o CMakeFiles/untitled.dir/NPC.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/NPC.c
 
 CMakeFiles/untitled.dir/NPC.c.i: cmake_force
@@ -198,7 +184,7 @@ CMakeFiles/untitled.dir/NPC.c.s: cmake_force
 CMakeFiles/untitled.dir/Items.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Items.c.o: /home/luke/Documents/battleMonsters/battleMonsters/Items.c
 CMakeFiles/untitled.dir/Items.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/untitled.dir/Items.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/untitled.dir/Items.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/Items.c.o -MF CMakeFiles/untitled.dir/Items.c.o.d -o CMakeFiles/untitled.dir/Items.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/Items.c
 
 CMakeFiles/untitled.dir/Items.c.i: cmake_force
@@ -212,7 +198,7 @@ CMakeFiles/untitled.dir/Items.c.s: cmake_force
 CMakeFiles/untitled.dir/Sound.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Sound.c.o: /home/luke/Documents/battleMonsters/battleMonsters/Sound.c
 CMakeFiles/untitled.dir/Sound.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/untitled.dir/Sound.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/untitled.dir/Sound.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/Sound.c.o -MF CMakeFiles/untitled.dir/Sound.c.o.d -o CMakeFiles/untitled.dir/Sound.c.o -c /home/luke/Documents/battleMonsters/battleMonsters/Sound.c
 
 CMakeFiles/untitled.dir/Sound.c.i: cmake_force
@@ -225,7 +211,6 @@ CMakeFiles/untitled.dir/Sound.c.s: cmake_force
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/library.c.o" \
 "CMakeFiles/untitled.dir/battleSequence.c.o" \
 "CMakeFiles/untitled.dir/overWorld.c.o" \
 "CMakeFiles/untitled.dir/introductionSequence.c.o" \
@@ -240,25 +225,23 @@ untitled_OBJECTS = \
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-libuntitled.a: CMakeFiles/untitled.dir/library.c.o
-libuntitled.a: CMakeFiles/untitled.dir/battleSequence.c.o
-libuntitled.a: CMakeFiles/untitled.dir/overWorld.c.o
-libuntitled.a: CMakeFiles/untitled.dir/introductionSequence.c.o
-libuntitled.a: CMakeFiles/untitled.dir/player.c.o
-libuntitled.a: CMakeFiles/untitled.dir/saveload.c.o
-libuntitled.a: CMakeFiles/untitled.dir/mapData.c.o
-libuntitled.a: CMakeFiles/untitled.dir/battleMonsters.c.o
-libuntitled.a: CMakeFiles/untitled.dir/NPC.c.o
-libuntitled.a: CMakeFiles/untitled.dir/Items.c.o
-libuntitled.a: CMakeFiles/untitled.dir/Sound.c.o
-libuntitled.a: CMakeFiles/untitled.dir/build.make
-libuntitled.a: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library libuntitled.a"
-	$(CMAKE_COMMAND) -P CMakeFiles/untitled.dir/cmake_clean_target.cmake
+untitled: CMakeFiles/untitled.dir/battleSequence.c.o
+untitled: CMakeFiles/untitled.dir/overWorld.c.o
+untitled: CMakeFiles/untitled.dir/introductionSequence.c.o
+untitled: CMakeFiles/untitled.dir/player.c.o
+untitled: CMakeFiles/untitled.dir/saveload.c.o
+untitled: CMakeFiles/untitled.dir/mapData.c.o
+untitled: CMakeFiles/untitled.dir/battleMonsters.c.o
+untitled: CMakeFiles/untitled.dir/NPC.c.o
+untitled: CMakeFiles/untitled.dir/Items.c.o
+untitled: CMakeFiles/untitled.dir/Sound.c.o
+untitled: CMakeFiles/untitled.dir/build.make
+untitled: CMakeFiles/untitled.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/untitled.dir/build: libuntitled.a
+CMakeFiles/untitled.dir/build: untitled
 .PHONY : CMakeFiles/untitled.dir/build
 
 CMakeFiles/untitled.dir/clean:

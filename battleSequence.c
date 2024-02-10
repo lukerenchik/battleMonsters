@@ -5,15 +5,6 @@
 #include "battleSequence.h"
 
 int main() {
-
     srand(time(NULL));
-    battleType = 'p';
 
-
-
-
-
-
-
-    startBattle(battleType, &Aqualix, &Zorax, &User);
 }
