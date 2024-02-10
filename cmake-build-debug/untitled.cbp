@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/libuntitled.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/libuntitled.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/luke/Documents/battleMonsters/battleMonsters/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/Items.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/Items.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/NPC.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/NPC.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/Sound.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/Sound.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleMonster.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleMonsters.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleSequence.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/battleSequence.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/introductionSequence.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/library.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/mapData.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/mapData.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/overWorld.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/overWorld.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/player.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/player.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/saveload.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/saveload.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/luke/Documents/battleMonsters/battleMonsters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -9,7 +9,7 @@ int main() {
 
     //Initializing mapPersons
     mapPersonInitialization(&player, 6, 3, "", 0);
-    mapPersonInitialization(&rival, 18, 3, "Well, well, look who finally showed up! Ready to taste defeat?", 1);
+    mapPersonInitializationWithAction(&rival, 18, 3, "Well, well, look who finally showed up! Ready to taste defeat?", 1,startBattle('p',));
 
     placeOnMap(&player, map);
     placeOnMap(&rival, map);

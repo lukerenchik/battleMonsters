@@ -4,29 +4,39 @@
 
 #ifndef UNTITLED_BATTLEMONSTERSREFORMATTED_H
 #define UNTITLED_BATTLEMONSTERSREFORMATTED_H
-#endif //UNTITLED_BATTLEMONSTERSREFORMATTED_H
 
-#include "library.h"
 #include <string.h>
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <conio.h>
+#include "battleSequence.h"
 
 #define MAX_X 100
 #define MAX_Y 100
+
+typedef void (*ActionFunction)(void);
 
 typedef struct {
     int xPosition;
     int yPosition;
     char actionText[200];
     int ID;
+    ActionFunction actionFunction;
 }mapPerson;
 
 mapPerson* map[MAX_X][MAX_Y] = {0};
 
 void clearConsole() {
-    system("cls");
+    system("clear");
+}
+
+void mapPersonInitializationWithAction(mapPerson *name, int xPos, int yPos, char text[], int ID, ActionFunction action){
+    name->xPosition = xPos;
+    name->yPosition = yPos;
+    name->ID = ID;
+    strcpy(name->actionText, text);
+    name->actionFunction = action;
+    map[name->xPosition][name->yPosition] = name;
 }
 
 void mapPersonInitialization(mapPerson *name, int xPos, int yPos, char text[], int ID){
@@ -36,6 +46,7 @@ void mapPersonInitialization(mapPerson *name, int xPos, int yPos, char text[], i
     strcpy(name->actionText, text);
     map[name->xPosition][name->yPosition] = name;
 }
+
 
 void clearFromMap(mapPerson *name, mapPerson* grid[MAX_X][MAX_Y]){
     grid[name->xPosition][name->yPosition] = NULL;
@@ -152,3 +163,5 @@ mapPerson* isActionAdjacent(mapPerson* grid[MAX_X][MAX_Y], mapPerson *person) {
     }
     return NULL;
 }
+
+#endif //UNTITLED_BATTLEMONSTERSREFORMATTED_H
