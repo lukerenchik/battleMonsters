@@ -29,4 +29,5 @@ add_executable(untitled
 #include_directories(your/include/directory)
 
 # Uncomment and adjust if you need to link with external libraries
-#target_link_libraries(untitled your_external_library)
+target_link_libraries(untitled m)
+

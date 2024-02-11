@@ -48,11 +48,3 @@ void displayTextInChunks(const char *text, int chunkSize) {
         start = end;
     }
 }
-
-int main() {
-
-    displayTextInChunks(introductionText, 200); // Display in chunks of 200 characters
-
-
-    return 0;
-}
